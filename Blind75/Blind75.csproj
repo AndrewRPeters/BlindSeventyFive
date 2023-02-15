@@ -46,11 +46,24 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="FourteenLongestCommonPrefix.cs" />
-    <Compile Include="1TwoSum.cs" />
-    <Compile Include="ThirteenRomanToInteger.cs" />
-    <Compile Include="ElevenContainerWithMostWater.cs" />
-    <Compile Include="NinePalindromeNumber.cs" />
+    <Compile Include="TwentyValidParentheses.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FourteenLongestCommonPrefix.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="1TwoSum.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ThirteenRomanToInteger.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ElevenContainerWithMostWater.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="NinePalindromeNumber.cs">
+      <SubType>Form</SubType>
+    </Compile>
     <Compile Include="Main.cs">
       <SubType>Form</SubType>
     </Compile>

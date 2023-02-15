@@ -47,5 +47,11 @@ namespace Blind75
             var m = new FourteenLongestCommonPrefix();
             m.Show();
         }
+
+        private void Btn20_Click(object sender, EventArgs e)
+        {
+            var m = new TwentyValidParentheses();
+            m.Show();
+        }
     }
 }

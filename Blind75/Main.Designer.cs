@@ -34,6 +34,7 @@ namespace Blind75
             this.Btn11 = new System.Windows.Forms.Button();
             this.Btn13 = new System.Windows.Forms.Button();
             this.Btn14 = new System.Windows.Forms.Button();
+            this.Btn20 = new System.Windows.Forms.Button();
             this.SuspendLayout();
             // 
             // Btn_Prob1
@@ -86,11 +87,22 @@ namespace Blind75
             this.Btn14.UseVisualStyleBackColor = true;
             this.Btn14.Click += new System.EventHandler(this.Btn14_Click);
             // 
+            // Btn20
+            // 
+            this.Btn20.Location = new System.Drawing.Point(512, 26);
+            this.Btn20.Name = "Btn20";
+            this.Btn20.Size = new System.Drawing.Size(119, 23);
+            this.Btn20.TabIndex = 5;
+            this.Btn20.Text = "20: Valid Parentheses";
+            this.Btn20.UseVisualStyleBackColor = true;
+            this.Btn20.Click += new System.EventHandler(this.Btn20_Click);
+            // 
             // Main
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(800, 450);
+            this.Controls.Add(this.Btn20);
             this.Controls.Add(this.Btn14);
             this.Controls.Add(this.Btn13);
             this.Controls.Add(this.Btn11);
@@ -109,6 +121,7 @@ namespace Blind75
         private System.Windows.Forms.Button Btn11;
         private System.Windows.Forms.Button Btn13;
         private System.Windows.Forms.Button Btn14;
+        private System.Windows.Forms.Button Btn20;
     }
 }
 

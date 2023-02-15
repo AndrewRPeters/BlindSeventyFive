@@ -17,7 +17,7 @@ namespace Blind75
             this.richTextBox2.Text = "First Example : [" + string.Join(", ", EXOne) + "]   Target : 9";
             this.richTextBox2.AppendText(Environment.NewLine + "Second Example : [" + string.Join(", ", EXTwo) + "]  Target: 6");
             this.richTextBox2.AppendText(Environment.NewLine + "Third Example : [" + string.Join(", ", EXThree) + "]  Target: 6");
-            this.ValueChanged += RunTwoSum;
+            this.ValueChanged += RunLongestPrefix;
         }
         
         string[] EXOne = { "flower", "flow", "flight" };
@@ -41,7 +41,7 @@ namespace Blind75
             return Return;
         }
 
-        public void RunTwoSum(object sender, EventArgs e)
+        public void RunLongestPrefix(object sender, EventArgs e)
         {
             this.richTextBox3.Text = ("Answeres: ");
             this.richTextBox3.AppendText(Environment.NewLine + "First Example : " + LongestCommonPrefix(EXOne));

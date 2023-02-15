@@ -9,3 +9,14 @@ C:\Users\arpeters\source\repos\Blind75\Blind75\obj\Debug\Blind75.csproj.Generate
 C:\Users\arpeters\source\repos\Blind75\Blind75\obj\Debug\Blind75.csproj.CoreCompileInputs.cache
 C:\Users\arpeters\source\repos\Blind75\Blind75\obj\Debug\Blind75.exe
 C:\Users\arpeters\source\repos\Blind75\Blind75\obj\Debug\Blind75.pdb
+C:\Users\arpeters\Documents\ADO-SP\Blind75\Blind75\bin\Debug\Blind75.exe.config
+C:\Users\arpeters\Documents\ADO-SP\Blind75\Blind75\bin\Debug\Blind75.exe
+C:\Users\arpeters\Documents\ADO-SP\Blind75\Blind75\bin\Debug\Blind75.pdb
+C:\Users\arpeters\Documents\ADO-SP\Blind75\Blind75\obj\Debug\Blind75.csproj.AssemblyReference.cache
+C:\Users\arpeters\Documents\ADO-SP\Blind75\Blind75\obj\Debug\Blind75.Main.resources
+C:\Users\arpeters\Documents\ADO-SP\Blind75\Blind75\obj\Debug\Blind75.SolutionForDisplay.resources
+C:\Users\arpeters\Documents\ADO-SP\Blind75\Blind75\obj\Debug\Blind75.Properties.Resources.resources
+C:\Users\arpeters\Documents\ADO-SP\Blind75\Blind75\obj\Debug\Blind75.csproj.GenerateResource.cache
+C:\Users\arpeters\Documents\ADO-SP\Blind75\Blind75\obj\Debug\Blind75.csproj.CoreCompileInputs.cache
+C:\Users\arpeters\Documents\ADO-SP\Blind75\Blind75\obj\Debug\Blind75.exe
+C:\Users\arpeters\Documents\ADO-SP\Blind75\Blind75\obj\Debug\Blind75.pdb
