@@ -53,5 +53,11 @@ namespace Blind75
             var m = new TwentyValidParentheses();
             m.Show();
         }
+
+        private void Btn21_Click(object sender, EventArgs e)
+        {
+            var m = new TwentyOneMergeTwoSortedLIsts();
+            m.Show();
+        }
     }
 }

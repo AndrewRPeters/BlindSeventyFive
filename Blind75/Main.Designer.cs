@@ -35,6 +35,7 @@ namespace Blind75
             this.Btn13 = new System.Windows.Forms.Button();
             this.Btn14 = new System.Windows.Forms.Button();
             this.Btn20 = new System.Windows.Forms.Button();
+            this.Btn21 = new System.Windows.Forms.Button();
             this.SuspendLayout();
             // 
             // Btn_Prob1
@@ -97,11 +98,22 @@ namespace Blind75
             this.Btn20.UseVisualStyleBackColor = true;
             this.Btn20.Click += new System.EventHandler(this.Btn20_Click);
             // 
+            // Btn21
+            // 
+            this.Btn21.Location = new System.Drawing.Point(637, 26);
+            this.Btn21.Name = "Btn21";
+            this.Btn21.Size = new System.Drawing.Size(119, 23);
+            this.Btn21.TabIndex = 6;
+            this.Btn21.Text = "21: Merge Two Lists";
+            this.Btn21.UseVisualStyleBackColor = true;
+            this.Btn21.Click += new System.EventHandler(this.Btn21_Click);
+            // 
             // Main
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(800, 450);
+            this.Controls.Add(this.Btn21);
             this.Controls.Add(this.Btn20);
             this.Controls.Add(this.Btn14);
             this.Controls.Add(this.Btn13);
@@ -122,6 +134,7 @@ namespace Blind75
         private System.Windows.Forms.Button Btn13;
         private System.Windows.Forms.Button Btn14;
         private System.Windows.Forms.Button Btn20;
+        private System.Windows.Forms.Button Btn21;
     }
 }
 

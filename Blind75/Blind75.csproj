@@ -46,6 +46,7 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="TwentyOneMergeTwoSortedLIsts.cs" />
     <Compile Include="TwentyValidParentheses.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -109,6 +110,7 @@
   </ItemGroup>
   <ItemGroup>
     <Content Include="Images\question_11.jpg" />
+    <Content Include="Images\merge_ex1.jpg" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>
