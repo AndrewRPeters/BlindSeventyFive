@@ -23,7 +23,7 @@ namespace Blind75
             this.richTextBox2.Text = "First Example : s = 'III''";
             this.richTextBox2.AppendText(Environment.NewLine + "Second Example : s = 'LVIII'");
             this.richTextBox2.AppendText(Environment.NewLine + "Third Example : s = 'MCMXCIV'");
-            this.ValueChanged += RunMaxArea;
+            this.ValueChanged += RunRomanToInt;
 
         }
 
@@ -56,7 +56,7 @@ namespace Blind75
         {'M', 1000}
     };
 
-        public void RunMaxArea(object sender, EventArgs e)
+        public void RunRomanToInt(object sender, EventArgs e)
         {
             this.richTextBox3.Text = ("Answeres: ");
             this.richTextBox3.AppendText(Environment.NewLine + "First Example : " + RomanToInt("III").ToString());

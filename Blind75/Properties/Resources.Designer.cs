@@ -63,6 +63,16 @@ namespace Blind75.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
+        internal static System.Drawing.Bitmap merge_ex1 {
+            get {
+                object obj = ResourceManager.GetObject("merge_ex1", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
         internal static System.Drawing.Bitmap question_11 {
             get {
                 object obj = ResourceManager.GetObject("question_11", resourceCulture);
