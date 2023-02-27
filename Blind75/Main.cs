@@ -59,5 +59,11 @@ namespace Blind75
             var m = new TwentyOneMergeTwoSortedLIsts();
             m.Show();
         }
+
+        private void btn66_Click(object sender, EventArgs e)
+        {
+            var m = new SixtySixPlusOne();
+            m.Show();
+        }
     }
 }

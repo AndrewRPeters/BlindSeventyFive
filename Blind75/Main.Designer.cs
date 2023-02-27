@@ -36,6 +36,7 @@ namespace Blind75
             this.Btn14 = new System.Windows.Forms.Button();
             this.Btn20 = new System.Windows.Forms.Button();
             this.Btn21 = new System.Windows.Forms.Button();
+            this.btn66 = new System.Windows.Forms.Button();
             this.SuspendLayout();
             // 
             // Btn_Prob1
@@ -108,11 +109,22 @@ namespace Blind75
             this.Btn21.UseVisualStyleBackColor = true;
             this.Btn21.Click += new System.EventHandler(this.Btn21_Click);
             // 
+            // btn66
+            // 
+            this.btn66.Location = new System.Drawing.Point(13, 55);
+            this.btn66.Name = "btn66";
+            this.btn66.Size = new System.Drawing.Size(119, 23);
+            this.btn66.TabIndex = 7;
+            this.btn66.Text = "66 Plus one";
+            this.btn66.UseVisualStyleBackColor = true;
+            this.btn66.Click += new System.EventHandler(this.btn66_Click);
+            // 
             // Main
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(800, 450);
+            this.Controls.Add(this.btn66);
             this.Controls.Add(this.Btn21);
             this.Controls.Add(this.Btn20);
             this.Controls.Add(this.Btn14);
@@ -135,6 +147,7 @@ namespace Blind75
         private System.Windows.Forms.Button Btn14;
         private System.Windows.Forms.Button Btn20;
         private System.Windows.Forms.Button Btn21;
+        private System.Windows.Forms.Button btn66;
     }
 }
 
