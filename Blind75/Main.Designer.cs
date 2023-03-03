@@ -37,6 +37,7 @@ namespace Blind75
             this.Btn20 = new System.Windows.Forms.Button();
             this.Btn21 = new System.Windows.Forms.Button();
             this.btn66 = new System.Windows.Forms.Button();
+            this.btn2 = new System.Windows.Forms.Button();
             this.SuspendLayout();
             // 
             // Btn_Prob1
@@ -51,7 +52,7 @@ namespace Blind75
             // 
             // Btn9
             // 
-            this.Btn9.Location = new System.Drawing.Point(94, 26);
+            this.Btn9.Location = new System.Drawing.Point(210, 26);
             this.Btn9.Name = "Btn9";
             this.Btn9.Size = new System.Drawing.Size(120, 23);
             this.Btn9.TabIndex = 1;
@@ -61,7 +62,7 @@ namespace Blind75
             // 
             // Btn11
             // 
-            this.Btn11.Location = new System.Drawing.Point(220, 26);
+            this.Btn11.Location = new System.Drawing.Point(336, 26);
             this.Btn11.Name = "Btn11";
             this.Btn11.Size = new System.Drawing.Size(79, 23);
             this.Btn11.TabIndex = 2;
@@ -71,7 +72,7 @@ namespace Blind75
             // 
             // Btn13
             // 
-            this.Btn13.Location = new System.Drawing.Point(305, 26);
+            this.Btn13.Location = new System.Drawing.Point(421, 26);
             this.Btn13.Name = "Btn13";
             this.Btn13.Size = new System.Drawing.Size(94, 23);
             this.Btn13.TabIndex = 3;
@@ -81,7 +82,7 @@ namespace Blind75
             // 
             // Btn14
             // 
-            this.Btn14.Location = new System.Drawing.Point(405, 26);
+            this.Btn14.Location = new System.Drawing.Point(521, 26);
             this.Btn14.Name = "Btn14";
             this.Btn14.Size = new System.Drawing.Size(101, 23);
             this.Btn14.TabIndex = 4;
@@ -91,7 +92,7 @@ namespace Blind75
             // 
             // Btn20
             // 
-            this.Btn20.Location = new System.Drawing.Point(512, 26);
+            this.Btn20.Location = new System.Drawing.Point(628, 26);
             this.Btn20.Name = "Btn20";
             this.Btn20.Size = new System.Drawing.Size(119, 23);
             this.Btn20.TabIndex = 5;
@@ -101,7 +102,7 @@ namespace Blind75
             // 
             // Btn21
             // 
-            this.Btn21.Location = new System.Drawing.Point(637, 26);
+            this.Btn21.Location = new System.Drawing.Point(13, 55);
             this.Btn21.Name = "Btn21";
             this.Btn21.Size = new System.Drawing.Size(119, 23);
             this.Btn21.TabIndex = 6;
@@ -111,7 +112,7 @@ namespace Blind75
             // 
             // btn66
             // 
-            this.btn66.Location = new System.Drawing.Point(13, 55);
+            this.btn66.Location = new System.Drawing.Point(138, 55);
             this.btn66.Name = "btn66";
             this.btn66.Size = new System.Drawing.Size(119, 23);
             this.btn66.TabIndex = 7;
@@ -119,11 +120,22 @@ namespace Blind75
             this.btn66.UseVisualStyleBackColor = true;
             this.btn66.Click += new System.EventHandler(this.btn66_Click);
             // 
+            // btn2
+            // 
+            this.btn2.Location = new System.Drawing.Point(94, 26);
+            this.btn2.Name = "btn2";
+            this.btn2.Size = new System.Drawing.Size(110, 23);
+            this.btn2.TabIndex = 8;
+            this.btn2.Text = "2: Add two numbers";
+            this.btn2.UseVisualStyleBackColor = true;
+            this.btn2.Click += new System.EventHandler(this.btn2_Click);
+            // 
             // Main
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(800, 450);
+            this.Controls.Add(this.btn2);
             this.Controls.Add(this.btn66);
             this.Controls.Add(this.Btn21);
             this.Controls.Add(this.Btn20);
@@ -148,6 +160,7 @@ namespace Blind75
         private System.Windows.Forms.Button Btn20;
         private System.Windows.Forms.Button Btn21;
         private System.Windows.Forms.Button btn66;
+        private System.Windows.Forms.Button btn2;
     }
 }
 

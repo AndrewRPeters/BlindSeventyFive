@@ -46,6 +46,9 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="TwoAddTwoNumbers.cs">
+      <SubType>Form</SubType>
+    </Compile>
     <Compile Include="TwentyOneMergeTwoSortedLIsts.cs" />
     <Compile Include="SixtySixPlusOne.cs">
       <SubType>Form</SubType>

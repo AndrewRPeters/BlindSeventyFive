@@ -65,5 +65,12 @@ namespace Blind75
             var m = new SixtySixPlusOne();
             m.Show();
         }
+
+        private void btn2_Click(object sender, EventArgs e)
+        {
+            var m = new TwoAddTwoNumbers();
+            m.Show();
+
+        }
     }
 }
