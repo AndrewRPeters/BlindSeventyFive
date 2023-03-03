@@ -6,11 +6,11 @@ namespace Blind75
     {
         public TwoAddTwoNumbers()
         {
-            this.richTextBox1.Text = "You are given the heads of two sorted linked lists list1 and list2.";
+            this.richTextBox1.Text = "You are given two non-empty linked lists representing two non-negative integers. The digits are stored in reverse order, and each of their nodes contains a single digit. ";
             this.richTextBox1.AppendText(Environment.NewLine);
-            this.richTextBox1.AppendText(Environment.NewLine + "Merge the two lists in a one sorted list. The list should be made by splicing together the nodes of the first two lists.");
+            this.richTextBox1.AppendText(Environment.NewLine + " Add the two numbers and return the sum as a linked list.");
             this.richTextBox1.AppendText(Environment.NewLine);
-            this.richTextBox1.AppendText(Environment.NewLine + "Return the head of the merged linked list.");
+            this.richTextBox1.AppendText(Environment.NewLine + "You may assume the two numbers do not contain any leading zero, except the number 0 itself.");
             SetupLinkedList();
 
             this.richTextBox2.Text = "First Example : list1 = " + LinkedToString(Example1List1.head) + ", list2 = " + LinkedToString(Example1List2.head);
