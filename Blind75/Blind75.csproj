@@ -46,6 +46,15 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="FiveLongestPalindorme.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FourMedianOfTwoSortedArrays.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ThreeLongestSubString.cs">
+      <SubType>Form</SubType>
+    </Compile>
     <Compile Include="TwoAddTwoNumbers.cs">
       <SubType>Form</SubType>
     </Compile>

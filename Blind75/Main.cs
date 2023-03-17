@@ -70,7 +70,23 @@ namespace Blind75
         {
             var m = new TwoAddTwoNumbers();
             m.Show();
+        }
 
+        private void btn3_Click(object sender, EventArgs e)
+        {
+            var m = new ThreeLongestSubString();
+            m.Show();
+        }
+
+        private void btn4_Click(object sender, EventArgs e)
+        {
+            var m = new FourMedianOfTwoSortedArrays();
+            m.Show();
+        }
+        private void btn5_Click(object sender, EventArgs e)
+        {
+            var m = new FiveLongestPalindorme();
+            m.Show();
         }
     }
 }

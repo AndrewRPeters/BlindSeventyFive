@@ -6,11 +6,11 @@ namespace Blind75
     {
         public TwoAddTwoNumbers()
         {
-            this.richTextBox1.Text = "You are given the heads of two sorted linked lists list1 and list2.";
+            this.richTextBox1.Text = "You are given two non-empty linked lists representing two non-negative integers. The digits are stored in reverse order, and each of their nodes contains a single digit. ";
             this.richTextBox1.AppendText(Environment.NewLine);
-            this.richTextBox1.AppendText(Environment.NewLine + "Merge the two lists in a one sorted list. The list should be made by splicing together the nodes of the first two lists.");
+            this.richTextBox1.AppendText(Environment.NewLine + " Add the two numbers and return the sum as a linked list.");
             this.richTextBox1.AppendText(Environment.NewLine);
-            this.richTextBox1.AppendText(Environment.NewLine + "Return the head of the merged linked list.");
+            this.richTextBox1.AppendText(Environment.NewLine + "You may assume the two numbers do not contain any leading zero, except the number 0 itself.");
             SetupLinkedList();
 
             this.richTextBox2.Text = "First Example : list1 = " + LinkedToString(Example1List1.head) + ", list2 = " + LinkedToString(Example1List2.head);
@@ -74,8 +74,6 @@ namespace Blind75
         public void RunMergeTwoLIsts(object sender, EventArgs e)
         {
             this.richTextBox3.Text = ("Answeres: ");
-
-           
             this.richTextBox3.AppendText(Environment.NewLine + "First Example : "  + LinkedToString(MergeTwoLists(Example1List1.head, Example1List2.head)));
             this.richTextBox3.AppendText(Environment.NewLine + "Second Example : " + LinkedToString(MergeTwoLists(new LinkedList().head, new LinkedList().head)));
             this.richTextBox3.AppendText(Environment.NewLine + "Third Example : " + LinkedToString(MergeTwoLists(Example3List1.head, Example3List2.head)));
